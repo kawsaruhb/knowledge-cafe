@@ -1,8 +1,12 @@
 import React from 'react';
 import './Card.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookBookmark } from '@fortawesome/free-solid-svg-icons'
 
 const Card = (props) => {
     const { img, author_img, name, title } = props.blog;
+    const handleBookmark = props.handleBookmark;
+
     return (
         <div className='card'>
             <img src={img} alt="" />
@@ -18,7 +22,9 @@ const Card = (props) => {
                 </div>
                 <div className='bookmark'>
                     <p>05 min read</p>
-                    <button className='btn'>BookMark</button>
+                    <button onClick={() => handleBookmark (props.blog)} className='btn'>
+                        <FontAwesomeIcon icon={faBookBookmark} />
+                    </button>
                 </div>
             </div>
         </div>
