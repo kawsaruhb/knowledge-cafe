@@ -3,6 +3,7 @@
         "id": "124e13b9",
         "title": "How to get your first job as a self-taught programmer",
         "name": "Mr. Tesla",
+        "author_img": "https://cdn.pixabay.com/photo/2022/09/19/13/56/elon-musk-7465608_960_720.png",
         "img": "https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
        
     },
@@ -10,6 +11,7 @@
         "id": "13cbc7ed",
         "title": "How to get your first job as a self-taught programmer",
         "name": "Mr. Apple",
+        "author_img": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2014/04/11/101576653-Steve-jobs-illustration.jpg?v=1398436713",
         "img": "https://images.pexels.com/photos/930530/pexels-photo-930530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 
     },
@@ -17,6 +19,7 @@
         "id": "307f166f",
         "title": "How to get your first job as a self-taught programmer",
         "name": "Mr. Microsoft",
+        "author_img": "https://cdn.pixabay.com/photo/2021/11/24/08/46/bill-gates-6820567_960_720.png",
         "img": "https://images.pexels.com/photos/4974914/pexels-photo-4974914.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 
     },
@@ -24,13 +27,15 @@
         "id": "4bf9798f",
         "title": "How to get your first job as a self-taught programmer",
         "name": "Mr. Ollyo",
+        "author_img": "https://media.licdn.com/dms/image/C5103AQHeDEYAcmB1kw/profile-displayphoto-shrink_800_800/0/1527399050444?e=2147483647&v=beta&t=qZ3V3vIOEUO1gWnWEgvGP4ssrKpeJSaJjKArfuhq02U",
         "img": "https://images.pexels.com/photos/326508/pexels-photo-326508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         
     },
     {
         "id": "9496d72b",
         "title": "How to get your first job as a self-taught programmer",
-        "name": "Mr. Nike",       
+        "name": "Mr. AliBaba", 
+        "author_img": "https://cdn.pixabay.com/photo/2020/12/14/15/51/jack-ma-5831277_960_720.png",      
         "img": "https://images.pexels.com/photos/4144294/pexels-photo-4144294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 
     }
