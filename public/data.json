@@ -1,0 +1,38 @@
+[
+    {
+        "id": "124e13b9",
+        "title": "How to get your first job as a self-taught programmer",
+        "name": "Mr. Tesla",
+        "img": "https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+       
+    },
+    {
+        "id": "13cbc7ed",
+        "title": "How to get your first job as a self-taught programmer",
+        "name": "Mr. Apple",
+        "img": "https://images.pexels.com/photos/930530/pexels-photo-930530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+
+    },
+    {
+        "id": "307f166f",
+        "title": "How to get your first job as a self-taught programmer",
+        "name": "Mr. Microsoft",
+        "img": "https://images.pexels.com/photos/4974914/pexels-photo-4974914.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+
+    },
+    {
+        "id": "4bf9798f",
+        "title": "How to get your first job as a self-taught programmer",
+        "name": "Mr. Ollyo",
+        "img": "https://images.pexels.com/photos/326508/pexels-photo-326508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        
+    },
+    {
+        "id": "9496d72b",
+        "title": "How to get your first job as a self-taught programmer",
+        "name": "Mr. Nike",       
+        "img": "https://images.pexels.com/photos/4144294/pexels-photo-4144294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+
+    }
+  
+]
