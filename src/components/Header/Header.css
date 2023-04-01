@@ -1,11 +1,11 @@
 .header{
-    height: 80px;
+    height: 70px;
     background-color: whitesmoke;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 60px;
+    padding-right: 50px;
     border-radius: 8px;
 }
 
