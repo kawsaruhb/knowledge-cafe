@@ -33,6 +33,10 @@ const Blog = () => {
             <div className='bookmark-container'>
                 <Bookmark bookmark={bookmark}></Bookmark>
             </div>
+            <div className='qa'>
+                <h4>1. Props vs state?</h4>
+                <p>Ans: State is referred to the local state of the component which cannot be accessed and modified outside of the component and only can be used & modified inside the component. Props, on the other hand,make components reusable by giving components the ability to receive data from the parent component in the form of props.</p>
+            </div>
         </div>
     );
 };

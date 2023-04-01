@@ -5,3 +5,19 @@
 
 .blogs-container {}
 
+.qa{
+    width: 868px;
+    height: 680px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    margin: 20px;
+    padding: 20px;
+}
+
+.qa h4{
+    margin: 0;
+}
+
+.qa p{
+    margin: 5px;
+}

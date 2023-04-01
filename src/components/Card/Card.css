@@ -1,6 +1,6 @@
 .card {
     width: 845px;
-    height: 650px;
+    height: 680px;
     border-radius: 8px;
     background-color: whitesmoke;
     margin: 20px;
@@ -62,10 +62,11 @@
     text-decoration-line: underline;
 
     color: #6047EC;
-    margin-top: 35px;
+    margin-top: 25px;
 
 }
 
 .title{
     margin: 0;
+    /* font-size: 30px; */
 }
