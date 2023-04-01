@@ -59,10 +59,11 @@
     font-size: 15px;
     line-height: 24px;
 
-    text-decoration-line: underline;
-
     color: #6047EC;
-    margin-top: 25px;
+    margin-top: 5px;
+    background-color: whitesmoke;
+    text-decoration: none;
+    padding: 0;
 
 }
 

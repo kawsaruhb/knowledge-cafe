@@ -19,6 +19,21 @@ const Blog = () => {
         setBookmark(newBookmark);
     }
 
+    const [readTime, setReadTime] = useState(0);
+
+    const handleTime = (time) =>{
+      const previousTime = JSON.parse(localStorage.getItem("ReadTime"));
+      if(previousTime){
+        const sum = previousTime + time;
+        localStorage.setItem("ReadTime", sum)
+        setReadTime(sum);
+      }
+      else{
+        localStorage.setItem("ReadTime", time)
+        setReadTime(time);
+      };
+  }
+
     return (
         <div className='blog-container'>
             <div className='blogs-container'>
@@ -27,11 +42,13 @@ const Blog = () => {
                         key={blog.id}
                         blog = {blog}
                         handleBookmark = {handleBookmark}
+                        handleTime = {handleTime}
+                        
                     ></Card>)
                 }
             </div>
             <div className='bookmark-container'>
-                <Bookmark bookmark={bookmark}></Bookmark>
+                <Bookmark bookmark={bookmark} readTime = {readTime}></Bookmark>
             </div>
             <div className='qa'>
                 <h4>1. Props vs state?</h4>

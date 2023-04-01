@@ -6,6 +6,15 @@ import { faBookBookmark } from '@fortawesome/free-solid-svg-icons'
 const Card = (props) => {
     const { img, author_img, name, title, time } = props.blog;
     const handleBookmark = props.handleBookmark;
+    const handleTime = props.handleTime;
+    
+    // const handleTime = (time) => {
+    //     // console.log('time updated');
+    //     let time = 0;
+    // for (const blog of bookmark) {
+    //     time = time + blog.time;
+    // }
+    // }
 
     return (
         <div className='card'>
@@ -29,7 +38,7 @@ const Card = (props) => {
             </div>
             <h2 className='title'>{title}</h2>
             <p >#react #js #vite</p>
-            <p className='mark-read'>Mark as read</p>
+            <button onClick={() => handleTime(time)} className='mark-read'>Mark as read</button>
         </div>
     );
 };

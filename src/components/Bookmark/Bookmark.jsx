@@ -1,23 +1,17 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Bookmark.css'
 import { ToastContainer, toast } from 'react-toastify';
 
 const Bookmark = (props) => {
     const { bookmark } = props;
+    const readTime = props.readTime;
+    
+    const[time, setTime] = useState(readTime);
 
-    let time = 0;
-    for (const blog of bookmark) {
-        time = time + blog.time;
-    }
-
-    // const [toast, setToast] = useState([])
-    // const exist = blog.find(b => b.id == blog.id);
-    // if (exist) {
-    //     toast.error("Already have Bookmarked", { theme: "colored" });
-    // } else {
-    //     toast.success("Added as Bookmark", { theme: "colored" });
-    //     setCart([...cart, blog]);
-    // }
+    useEffect(()=>{
+        const getReadTimeStorage = localStorage.getItem('ReadTime');
+        setTime(getReadTimeStorage);
+    },[readTime])
 
     return (
         <div>

@@ -10,10 +10,25 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
   const [count, setCount] = useState(0)
 
+//   const [readTime, setReadTime] = useState('');
+
+//   const handleTime = (time) =>{
+//     const previousTime = JSON.parse(localStorage.getItem("ReadTime"));
+//     if(previousTime){
+//       const sum = previousTime + time;
+//       localStorage.setItem("ReadTime", sum)
+//       setReadTime(sum);
+//     }
+//     else{
+//       localStorage.setItem("ReadTime", time)
+//       setReadTime(time);
+//     };
+// }
+
   return (
     <div className="App">
       <Header></Header>
-      <Blog></Blog>
+      <Blog ></Blog>
       <ToastContainer></ToastContainer>
     </div>
   )
