@@ -36,6 +36,12 @@ const Blog = () => {
             <div className='qa'>
                 <h4>1. Props vs state?</h4>
                 <p>Ans: State is referred to the local state of the component which cannot be accessed and modified outside of the component and only can be used & modified inside the component. Props, on the other hand,make components reusable by giving components the ability to receive data from the parent component in the form of props.</p>
+
+                <h4>1. How does useState work??</h4>
+                <p>Ans: useState is React Hook that allows you to add state to a functional component. It returns an array with two values: the current state and a function to update it. The Hook takes an initial state value as an argument and returns an updated state value whenever the setter function is called.</p>
+
+                <h4>1. Props vs state?</h4>
+                <p>Ans: State is referred to the local state of the component which cannot be accessed and modified outside of the component and only can be used & modified inside the component. Props, on the other hand,make components reusable by giving components the ability to receive data from the parent component in the form of props.</p>
             </div>
         </div>
     );

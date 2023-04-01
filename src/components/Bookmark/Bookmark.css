@@ -5,7 +5,8 @@
     border-radius: 8px;
     margin: 20px;
     padding: 20px;
-
+    position: sticky;
+    top: 0;
 }
 
 .selected-bookmark {
