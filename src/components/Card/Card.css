@@ -1,6 +1,6 @@
 .card {
     width: 845px;
-    height: 821px;
+    height: 650px;
     border-radius: 8px;
     background-color: whitesmoke;
     margin: 20px;
@@ -14,9 +14,9 @@
     margin-bottom: 20px;
 }
 
-.author{
+.author {
     display: flex;
-   
+
 }
 
 .author img {
@@ -25,29 +25,47 @@
     height: 60px;
 }
 
-.author h4{
+.author h4 {
     margin: 0;
     margin-top: 5px;
 }
 
-.author p{
+.author p {
     margin: 2px;
 }
 
-.author-details{
+.author-details {
     margin-left: 20px;
 }
 
-.author-container{
+.author-container {
     display: flex;
     justify-content: space-between;
 }
 
-.bookmark{
+.bookmark {
     display: flex;
     align-items: center;
 }
-.btn{
+
+.btn {
     background-color: whitesmoke;
     text-decoration: none;
+}
+
+.mark-read {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+
+    text-decoration-line: underline;
+
+    color: #6047EC;
+    margin-top: 35px;
+
+}
+
+.title{
+    margin: 0;
 }

@@ -13,7 +13,7 @@ const Bookmark = (props) => {
         <div>
             <h4>Bookmarked Blogs: {bookmark.length}</h4>
             <div className='selected-bookmark'>
-                <p>{selectedBookmark}</p>
+                <h6>{selectedBookmark}</h6>
             </div>
         </div>
     );

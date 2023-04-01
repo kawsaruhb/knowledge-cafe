@@ -27,6 +27,8 @@ const Card = (props) => {
                     </button>
                 </div>
             </div>
+            <h2 className='title'>{title}</h2>
+            <p className='mark-read'>Mark as read</p>
         </div>
     );
 };
