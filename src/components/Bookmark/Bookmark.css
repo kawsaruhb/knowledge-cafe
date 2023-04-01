@@ -11,7 +11,37 @@
 .selected-bookmark {
     background-color: white;
     border-radius: 8px;
+    padding: 4px;
+    margin-bottom: 10px;
+    /* width: 270px;
+    height: 80px; */
+
+    /* font-style: normal; */
+    /* font-weight: 500; */
+    font-size: 18px;
+    /* line-height: 160%; */
+    /* or 29px */
+
+
+    /* color: #111111; */
+}
+
+.selected-bookmark h6 {
+    margin-left: 10px;
+}
+
+.spent-time {
+    background-color: rgba(96, 71, 236, 0.1);
+    ;
+    color: #6047EC;
+    ;
+    border-radius: 8px;
+    padding: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.spent-time h5 {
+   
     
-    width: 270px;
-    height: 98px;
 }

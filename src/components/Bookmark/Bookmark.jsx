@@ -1,20 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Bookmark.css'
 
 const Bookmark = (props) => {
-    const {bookmark} = props;
+    const { bookmark } = props;
 
-    let selectedBookmark = "";
+    let time = 0;
     for(const blog of bookmark){
-        selectedBookmark = selectedBookmark + blog.title;
+        time = time + blog.time;
     }
 
     return (
         <div>
-            <h4>Bookmarked Blogs: {bookmark.length}</h4>
-            <div className='selected-bookmark'>
-                <h6>{selectedBookmark}</h6>
+            <div className='spent-time'>
+                <h5>Spent time on read : {time} min</h5>
             </div>
+            <h4>Bookmarked Blogs: {bookmark.length}</h4>
+            {
+                bookmark.map(data => <div className='selected-bookmark'>
+                                     <h6>{data.title}</h6>
+                </div>)
+            }
+
         </div>
     );
 };
